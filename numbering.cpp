@@ -47,13 +47,12 @@ int main() {
 				dfs(i, j);
 				rsd.push_back(cnt);
 			}
-		cnt = 0; // �ʱ�ȭ
+		cnt = 0; // ÃÊ±âÈ­
 	}
 	cout << rsd.size() << endl;
 	sort(rsd.begin(), rsd.end());
 	for (int i = 0; i < rsd.size(); i++)
 		cout << rsd[i] << endl;
-
 
 
 	return 0;
