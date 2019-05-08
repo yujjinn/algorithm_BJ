@@ -1,21 +1,19 @@
 #include<iostream>
 #include<algorithm>
 
-#define M  5;
-#define SM 3;
 using namespace std;
 
-int cnt = 9999; //°³¼ö ÀúÀå
+int cnt = 9999; //ê°œìˆ˜ ì €ìž¥
 
-// ¼³ÅÁ ºÀÁö 3kg, 5kg
-// Á¤È®ÇÑ Ãâ·ÂÀÌ ºÒ°¡´ÉÇÑ °æ¿ì -1 Ãâ·Â
+// ì„¤íƒ• ë´‰ì§€ 3kg, 5kg
+// ì •í™•í•œ ì¶œë ¥ì´ ë¶ˆê°€ëŠ¥í•œ ê²½ìš° -1 ì¶œë ¥
 
 int main() {
 
 	int num = 0;
 	cin >> num;
 
-	//5·Î ¸ÕÀú ³ª´®
+	//5ë¡œ ë¨¼ì € ë‚˜ëˆ”
 	for (int cnt_5 = 0, i = 1; i <= num / 5; i++) {
 
 		int mok = i;
@@ -35,7 +33,7 @@ int main() {
 		
 		cnt_5 = 0;
 	}
-	// 3À¸·Î ³ª´®
+	// 3ìœ¼ë¡œ ë‚˜ëˆ”
 	for (int cnt_3 = 0, j = 1; j <= num / 3; j++) {
 	
 		int mok = j;
